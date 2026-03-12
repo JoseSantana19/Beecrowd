@@ -1,0 +1,6 @@
+a, b, c = list(map(float, input().split()))
+print(F'TRIANGULO: {a * c / 2 :.3f}')
+print(F'CIRCULO: {3.14159 * c ** 2 :.3f}')
+print(F'TRAPEZIO: {(a + b) * c / 2 :.3f}')
+print(F'QUADRADO: {b ** 2 :.3f}')
+print(F'RETANGULO: {a * b :.3f}')
