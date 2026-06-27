@@ -13,5 +13,4 @@ while True:
         saida += f"{e} "
         soma += e
     saida += f"Sum={soma}"
-    
     print(saida)
